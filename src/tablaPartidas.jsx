@@ -10,3 +10,8 @@ const [partidas, setPartidas] = useState([
   )}
 
   setPartidas(partidasOrdenadas);
+
+  const agregarPartida = (nuevaPartida) => {
+    setPartidas([...partidas, nuevaPartida])
+  };
+  
