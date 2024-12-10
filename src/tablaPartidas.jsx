@@ -49,4 +49,4 @@ const TablaPartidas = () => {
   )
 }
 
-export default TablaPartidas
+export default TablaPartidas;
