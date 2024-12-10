@@ -18,7 +18,7 @@ const TablaPartidas = () => {
   };
 
   const agregarPartida = (nuevaPartida) => {
-    setPartidas([...partidas, nuevaPartida]);
+    setPartidas([...partidas, nuevaPartida])
   };
 
   return (
